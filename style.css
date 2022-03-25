@@ -1,0 +1,37 @@
+* {
+    font-size: 16px;
+}
+body {
+    background-color: #f0f0f7;
+    font: 500 2rem Poppins;
+    text-align: justify;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+.container {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+h3 {
+    text-align: center;
+}
+.margin {
+    margin-left: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom: 2px solid red;
+}
