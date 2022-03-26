@@ -35,3 +35,20 @@ a {
 a:hover {
     border-bottom: 2px solid red;
 }
+
+@media screen and (max-width: 376px) {
+  .container {
+    font-size: 30px;   
+    width: 88%;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+
+  h1 {
+      font-size: 1.4rem;
+  }
+
+  h2 {
+      font-size: 1.1rem
+  }
+}
