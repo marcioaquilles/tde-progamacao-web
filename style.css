@@ -37,18 +37,52 @@ a:hover {
 }
 
 @media screen and (max-width: 376px) {
-  .container {
-    font-size: 30px;   
-    width: 88%;
-    margin: 0 auto;
-    box-sizing: border-box;
-  }
+    .container {
+        font-size: 30px;
+        width: 88%;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
 
-  h1 {
-      font-size: 1.4rem;
-  }
+    h1 {
+        font-size: 1rem;
+    }
 
-  h2 {
-      font-size: 1.1rem
-  }
+    h2 {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        font-size: 30px;
+        width: 88%;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+
+    h1 {
+        font-size: 1.3rem;
+    }
+
+    h2 {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 768px) and (max-width: 821px) {
+    .container {
+        font-size: 30px;
+        width: 88%;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+
+    h1 {
+        font-size: 1.3rem;
+    }
+
+    h2 {
+        font-size: 1.1rem;
+    }
 }
